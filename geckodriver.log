@@ -1,0 +1,186 @@
+1598432139506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyNaC25"
+
+** (/usr/lib/firefox/firefox:104785): WARNING **: 14:25:51.953: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:104807): WARNING **: 14:25:52.438: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598432155075	Marionette	INFO	Listening on port 45879
+1598432155155	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+
+(firefox:104693): Gtk-CRITICAL **: 14:26:12.833: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:104693): Gtk-CRITICAL **: 14:26:12.845: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (/usr/lib/firefox/firefox:104879): WARNING **: 14:26:20.379: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:105030): WARNING **: 14:26:22.056: Unable to connect to dbus: Could not connect: Permission denied
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1598432201967	Marionette	INFO	Stopped listening on port 45879
+1598432208874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDlv4Ur"
+
+** (/usr/lib/firefox/firefox:105243): WARNING **: 14:26:54.359: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:105264): WARNING **: 14:26:54.659: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598432216933	Marionette	INFO	Listening on port 38823
+1598432217002	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:105163): Gtk-CRITICAL **: 14:27:17.990: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:105163): Gtk-CRITICAL **: 14:27:18.016: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (/usr/lib/firefox/firefox:105330): WARNING **: 14:27:35.592: Unable to connect to dbus: Could not connect: Permission denied
+1598432264273	Marionette	INFO	Stopped listening on port 38823
+1598432357206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIC3JjI"
+
+** (/usr/lib/firefox/firefox:105763): WARNING **: 14:29:22.870: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:105786): WARNING **: 14:29:23.255: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598432366529	Marionette	INFO	Listening on port 34627
+1598432366630	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:105673): Gtk-CRITICAL **: 14:29:43.093: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:105673): Gtk-CRITICAL **: 14:29:43.107: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (/usr/lib/firefox/firefox:105857): WARNING **: 14:30:02.042: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:106030): WARNING **: 14:30:03.196: Unable to connect to dbus: Could not connect: Permission denied
+1598432409534	Marionette	INFO	Stopped listening on port 34627
+1598432411853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOOvaW0"
+
+** (/usr/lib/firefox/firefox:106224): WARNING **: 14:30:16.794: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:106253): WARNING **: 14:30:17.146: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598432419675	Marionette	INFO	Listening on port 45587
+1598432419778	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:106148): Gtk-CRITICAL **: 14:30:34.592: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:106148): Gtk-CRITICAL **: 14:30:34.612: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: TypeError: this.socket is null
+
+** (/usr/lib/firefox/firefox:106323): WARNING **: 14:30:58.436: Unable to connect to dbus: Could not connect: Permission denied
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1598432537941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWRUcFG"
+
+** (/usr/lib/firefox/firefox:106722): WARNING **: 14:32:22.637: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:106744): WARNING **: 14:32:23.017: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598432545035	Marionette	INFO	Listening on port 45461
+1598432545080	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+
+(firefox:106637): Gtk-CRITICAL **: 14:32:39.403: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:106637): Gtk-CRITICAL **: 14:32:39.417: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (/usr/lib/firefox/firefox:106812): WARNING **: 14:33:19.580: Unable to connect to dbus: Could not connect: Permission denied
+1598432601868	Marionette	INFO	Stopped listening on port 45461
+1598432627244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg3Grqo"
+
+** (/usr/lib/firefox/firefox:107241): WARNING **: 14:33:54.814: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:107262): WARNING **: 14:33:55.272: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598432636906	Marionette	INFO	Listening on port 36585
+1598432636977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+
+(firefox:107162): Gtk-CRITICAL **: 14:34:14.620: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:107162): Gtk-CRITICAL **: 14:34:14.650: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+1598432674046	Marionette	INFO	Stopped listening on port 36585
+1598433237901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTHcui1"
+
+** (/usr/lib/firefox/firefox:108208): WARNING **: 14:44:04.741: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:108229): WARNING **: 14:44:05.120: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598433247728	Marionette	INFO	Listening on port 43955
+1598433247739	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:108120): Gtk-CRITICAL **: 14:44:23.226: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:108120): Gtk-CRITICAL **: 14:44:23.246: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: TypeError: this.socket is null
+
+** (/usr/lib/firefox/firefox:108298): WARNING **: 14:45:01.428: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:108495): WARNING **: 14:45:02.493: Unable to connect to dbus: Could not connect: Permission denied
+1598433307749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledVN4fV"
+1598433312419	Marionette	INFO	Stopped listening on port 43955
+
+** (/usr/lib/firefox/firefox:108699): WARNING **: 14:45:16.902: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:108720): WARNING **: 14:45:17.261: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598433318547	Marionette	INFO	Listening on port 33149
+1598433318593	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:108597): Gtk-CRITICAL **: 14:45:37.860: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:108597): Gtk-CRITICAL **: 14:45:37.881: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (/usr/lib/firefox/firefox:108790): WARNING **: 14:47:09.623: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:109000): WARNING **: 14:47:10.713: Unable to connect to dbus: Could not connect: Permission denied
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1598433433667	Marionette	INFO	Stopped listening on port 33149
+1598433436181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep9YPCq"
+
+** (/usr/lib/firefox/firefox:109177): WARNING **: 14:47:20.522: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:109198): WARNING **: 14:47:20.835: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598433443093	Marionette	INFO	Listening on port 45057
+1598433443105	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:109096): Gtk-CRITICAL **: 14:47:40.337: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:109096): Gtk-CRITICAL **: 14:47:40.404: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+1598433646676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewSjUXf"
+
+** (/usr/lib/firefox/firefox:109267): WARNING **: 14:50:49.372: Unable to connect to dbus: Could not connect: Permission denied
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+
+** (/usr/lib/firefox/firefox:109700): WARNING **: 14:50:52.667: Unable to connect to dbus: Could not connect: Permission denied
+1598433652891	Marionette	INFO	Stopped listening on port 45057
+
+** (/usr/lib/firefox/firefox:109722): WARNING **: 14:50:53.084: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598433655342	Marionette	INFO	Listening on port 36275
+1598433655400	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+
+(firefox:109575): Gtk-CRITICAL **: 14:51:19.048: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:109575): Gtk-CRITICAL **: 14:51:19.080: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: NotSupportedError: AudioContext.createMediaStreamSource: Connecting AudioNodes from AudioContexts with different sample-rate is currently not supported.
+
+** (/usr/lib/firefox/firefox:109803): WARNING **: 14:52:17.754: Unable to connect to dbus: Could not connect: Permission denied
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1598433743799	Marionette	INFO	Stopped listening on port 36275
+1598436176641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRgAU23"
+
+** (/usr/lib/firefox/firefox:111207): WARNING **: 15:33:04.382: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:111239): WARNING **: 15:33:04.776: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598436187978	Marionette	INFO	Listening on port 46825
+1598436188045	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/app.bundle.min.js?v=4289.971, line 84: TypeError: e is undefined
+
+(firefox:111134): Gtk-CRITICAL **: 15:33:26.761: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:111134): Gtk-CRITICAL **: 15:33:26.771: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+1598436749459	Marionette	INFO	Stopped listening on port 46825
