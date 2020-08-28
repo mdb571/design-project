@@ -184,3 +184,22 @@ JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/app.bundle.m
 
 (firefox:111134): Gtk-CRITICAL **: 15:33:26.771: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
 1598436749459	Marionette	INFO	Stopped listening on port 46825
+1598460612484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileynLS4u"
+
+** (/usr/lib/firefox/firefox:32566): WARNING **: 22:20:21.235: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:32613): WARNING **: 22:20:21.632: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598460624967	Marionette	INFO	Listening on port 40127
+1598460624982	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+
+(firefox:32478): Gtk-CRITICAL **: 22:21:02.704: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(firefox:32478): Gtk-CRITICAL **: 22:21:02.724: gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: NotSupportedError: AudioContext.createMediaStreamSource: Connecting AudioNodes from AudioContexts with different sample-rate is currently not supported.
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: NotSupportedError: AudioContext.createMediaStreamSource: Connecting AudioNodes from AudioContexts with different sample-rate is currently not supported.
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: NotSupportedError: AudioContext.createMediaStreamSource: Connecting AudioNodes from AudioContexts with different sample-rate is currently not supported.
+JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: TypeError: this.socket is null
+1598460741787	Marionette	INFO	Stopped listening on port 40127
