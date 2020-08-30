@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/home/rmb571/.pyenv/versions/projectblind/bin/python"
+    "python.pythonPath": "/home/rmb571/.pyenv/versions/projectblind/bin/python",
+    "python.envFile": "/home/rmb571/Documents/projectblind/pi.env"
+
 }

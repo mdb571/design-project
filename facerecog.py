@@ -4,6 +4,7 @@ import cv2
 import numpy as np
 import pickle
 import time
+from tts import t2s
 
 
 def match_face():
@@ -27,15 +28,19 @@ def match_face():
                 if True in match:
                     match_index=match.index(True)
                     name=known_face_names[match_index]
-                    print("{}'s face detected".format(name))
+                    text="{}'s face detected".format(name)
+                    print(text)
+                    t2s(text)
+                    quit()
                 else:
                     print("New face detetected enter name:")
                     name=input()
                     cv2.imwrite("/home/rmb571/Documents/projectblind/face_data/{}.jpg".format(name),frame)
-                    print("New Face added : {}".format(name))
-                    frame_count+=50
-                    img.set(1, frame_count)
-                    process_this_frame=not process_this_frame   
+                    text="New Face added : {}".format(name)
+                    print(text)
+                    t2s(text)
+                    quit()
+                      
         process_this_frame = not process_this_frame
 
 
