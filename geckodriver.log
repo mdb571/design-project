@@ -203,3 +203,12 @@ JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-me
 JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: NotSupportedError: AudioContext.createMediaStreamSource: Connecting AudioNodes from AudioContexts with different sample-rate is currently not supported.
 JavaScript error: https://web-cdn.jitsi.net/meetjitsi_4289.971/libs/lib-jitsi-meet.min.js?v=4289.971, line 1: TypeError: this.socket is null
 1598460741787	Marionette	INFO	Stopped listening on port 40127
+1598889114589	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3vZUyX"
+
+** (/usr/lib/firefox/firefox:49824): WARNING **: 21:22:02.222: Unable to connect to dbus: Could not connect: Permission denied
+
+** (/usr/lib/firefox/firefox:49846): WARNING **: 21:22:02.392: Unable to connect to dbus: Could not connect: Permission denied
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598889125869	Marionette	INFO	Listening on port 38883
+1598889125961	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.

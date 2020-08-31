@@ -31,7 +31,7 @@ def match_face():
                     text="{}'s face detected".format(name)
                     print(text)
                     t2s(text)
-                    quit()
+                    return True
                 else:
                     print("New face detetected enter name:")
                     name=input()
@@ -39,7 +39,8 @@ def match_face():
                     text="New Face added : {}".format(name)
                     print(text)
                     t2s(text)
-                    quit()
+                    return True
+                    
                       
         process_this_frame = not process_this_frame
 
@@ -59,4 +60,3 @@ def bilal_face():
         pickle.dump(face_encoding, f)
     print("Bilal's face added")
 
-match_face()

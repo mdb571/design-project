@@ -30,7 +30,8 @@ def get_image():
     image = cv2.imwrite('/home/rmb571/Documents/projectblind/event.jpg',content)
     return('event.jpg')
 
-def describe_image(filename):
+def describe_image():
+    filename=get_image()
     local_image = open(filename,'rb')
     description_result = computervision_client.describe_image_in_stream(local_image)
     local_image.close()
@@ -42,4 +43,4 @@ def describe_image(filename):
         print(caption)
         t2s(caption)
         
-describe_image(get_image())
+    
