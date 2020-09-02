@@ -41,6 +41,24 @@ def describe_image():
         caption = sorted(description_result.captions,key= lambda i: i.confidence)[-1]
         caption = str(caption.text)
         print(caption)
-        t2s(caption)
+        x=threading.Thread(target=t2s,args=caption)
+        x.start()
         
-    
+def face_feature(filename):
+    local_image=open(filename,'rb')
+    local_image_features = ["faces"]
+    detect_faces_results_local = computervision_client.analyze_image_in_stream(local_image, local_image_features)
+    num=len(detect_faces_results_local.faces)
+    print("{} faces detected".format(num))
+    if num==1:
+        caption="I see 1 face which I couldn't recognise"
+    else:
+        caption="I see {} faces which can't be recognised.I'll list their features".format(num)    
+    t2s(caption)
+    caption=''
+    for face in detect_faces_results_local.faces:
+        loop_data="{} of age {} ".format(face.gender, face.age)
+        caption+=loop_data
+        print(loop_data)
+    x=threading.Thread(target=t2s,args=(caption,))
+    x.start()

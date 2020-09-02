@@ -3,9 +3,9 @@ from PIL import Image,ImageDraw
 import cv2
 import numpy as np
 import pickle
-import time
+import time,os
 from tts import t2s
-
+from scene_des import face_feature
 
 def match_face():
     img=cv2.VideoCapture(0)
@@ -33,10 +33,12 @@ def match_face():
                     t2s(text)
                     return True
                 else:
+                    cv2.imwrite("/home/rmb571/Documents/projectblind/newface.jpg",frame)
+                    face_feature('newface.jpg')
                     print("New face detetected enter name:")
                     name=input()
-                    cv2.imwrite("/home/rmb571/Documents/projectblind/face_data/{}.jpg".format(name),frame)
                     text="New Face added : {}".format(name)
+                    os.system('mv newface.jpg face_data/{}.jpg'.format(name))
                     print(text)
                     t2s(text)
                     return True
