@@ -8,18 +8,17 @@ import os
 from PIL import Image
 import sys
 import time
-import cv2
+#import cv2
 from tts import t2s
 import threading
 
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 subscription_key=os.environ.get('SUBSCRIPTION_KEY')
 endpoint=os.environ.get('ENDPOINT')
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
-
 
 
 def get_image():
@@ -31,7 +30,7 @@ def get_image():
     return('event.jpg')
 
 def describe_image():
-    filename=get_image()
+    filename='/home/pi/Desktop/projectblind/kitchen.jpeg'
     local_image = open(filename,'rb')
     description_result = computervision_client.describe_image_in_stream(local_image)
     local_image.close()
@@ -41,7 +40,7 @@ def describe_image():
         caption = sorted(description_result.captions,key= lambda i: i.confidence)[-1]
         caption = str(caption.text)
         print(caption)
-        x=threading.Thread(target=t2s,args=caption)
+        x=threading.Thread(target=t2s,args=(caption,))
         x.start()
         
 def face_feature(filename):

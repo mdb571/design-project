@@ -7,7 +7,6 @@ import os
 
 ACCOUNT_SID=os.environ.get('ACCOUNT_SID')
 AUTH_TOKEN=os.environ.get('AUTH_TOKEN')
-print(ACCOUNT_SID)
 opt=Options()
 
 opt.add_experimental_option("prefs", { \
@@ -31,12 +30,12 @@ def meet():
 
     client = Client(ACCOUNT_SID,AUTH_TOKEN)
 
-  #  message = client.messages \
-   #             .create(
-    #                body='\nHey there Bilal wants some help in doing something.Join using the link to help him out\n {}'.format(url),
-     #               from_='+12058437986', #use your twilio no here
-      #              to='+919995153948', #use your verified phone no. here
-       #             )
+    message = client.messages \
+                .create(
+                    body='\nHey there Bilal wants some help in doing something.Join using the link to help him out\n {}'.format(url),
+                    from_='+12058437986', #use your twilio no here
+                    to='+919995153948', #use your verified phone no. here
+                    )
     print("message sent")
     person_joined=False
     while not person_joined:
@@ -49,6 +48,6 @@ def meet():
         if len(browser.find_elements_by_class_name('videocontainer__toptoolbar'))==1:
             print('The person has left..') 
             browser.close()
-            exit()
+            break
 
-meet()
+

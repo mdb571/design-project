@@ -1,24 +1,22 @@
 from scene_des import describe_image
-from facerecog import match_face
 from jitlio import meet
 from tts import t2s
 import os
 import threading
 
-os.system("mpg123 -q Welcome.mp3")
+#os.system("mpg123 -q Welcome.mp3")
 
 while True:
-    print('[+] Listening.....')
+    print('===========LEND YOUR EYES MENU=============\n')
+    print('[+] Press Help Button/Say the keyword')
+    print('[+] Press Describe Button/Say the keyword')
     n=int(input())
     if n==1:
-        os.system("mpg123 -q face.mp3")
-        match_face()
-        
+        print('Help Event Trigerred....')
+        meet()
     if n==2:
-        os.system("mpg123 -q scene.mp3")
+        print('Event Description Triggered...Capturing Image')
         describe_image()
 
-    if n==3:
-        os.system("mpg123 -q jitsi.mp3")
-        meet()
+  
     
