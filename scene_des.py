@@ -30,7 +30,7 @@ def get_image():
     return('event.jpg')
 
 def describe_image():
-    filename='/home/pi/Desktop/projectblind/kitchen.jpeg'
+    filename=get_image()
     local_image = open(filename,'rb')
     description_result = computervision_client.describe_image_in_stream(local_image)
     local_image.close()
