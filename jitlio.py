@@ -4,6 +4,10 @@ import time
 from twilio.rest import Client
 from twilio import twiml
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 ACCOUNT_SID=os.environ.get('ACCOUNT_SID')
 AUTH_TOKEN=os.environ.get('AUTH_TOKEN')
@@ -11,7 +15,7 @@ opt=Options()
 
 opt.add_experimental_option("prefs", { \
     "profile.default_content_setting_values.media_stream_mic": 2, 
-    "profile.default_content_setting_values.media_stream_camera": 2
+    "profile.default_content_setting_values.media_stream_camera": 1
     })
 
 
@@ -25,7 +29,7 @@ def meet():
             join_button=browser.find_element_by_class_name('action-btn')
             join_button.click()
             found=False
-        except ElementClickInterceptedException or NameError:
+        except:
             continue
 
     client = Client(ACCOUNT_SID,AUTH_TOKEN)

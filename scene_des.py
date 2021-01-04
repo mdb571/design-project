@@ -2,19 +2,19 @@ from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
 from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
 from msrest.authentication import CognitiveServicesCredentials
-
+import cv2
 from array import array
 import os
 from PIL import Image
 import sys
 import time
 #import cv2
-from tts import t2s
+#from tts import t2s
 import threading
 
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-#load_dotenv()
+load_dotenv()
 
 subscription_key=os.environ.get('SUBSCRIPTION_KEY')
 endpoint=os.environ.get('ENDPOINT')
@@ -26,8 +26,9 @@ def get_image():
     cap = cv2.VideoCapture(0)
     _, content = cap.read()
     cap.release()
-    image = cv2.imwrite('/home/rmb571/Documents/projectblind/event.jpg',content)
-    return('event.jpg')
+    PATH='/home/pi/Desktop/design/event.jpg'
+    image = cv2.imwrite(PATH,content)
+    return(PATH)
 
 def describe_image():
     filename=get_image()
@@ -40,8 +41,8 @@ def describe_image():
         caption = sorted(description_result.captions,key= lambda i: i.confidence)[-1]
         caption = str(caption.text)
         print(caption)
-        x=threading.Thread(target=t2s,args=(caption,))
-        x.start()
+       # x=threading.Thread(target=t2s,args=(caption,))
+       # x.start()
         
 def face_feature(filename):
     local_image=open(filename,'rb')
@@ -53,7 +54,7 @@ def face_feature(filename):
         caption="I see 1 face which I couldn't recognise"
     else:
         caption="I see {} faces which can't be recognised.I'll list their features".format(num)    
-    t2s(caption)
+  #  #t2s(caption)
     caption=''
     for face in detect_faces_results_local.faces:
         loop_data="{} of age {} ".format(face.gender, face.age)
